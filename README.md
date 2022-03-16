@@ -9,5 +9,5 @@ the startup class i added the _config (of IConfiguration)  local variable, here 
 I am based in Germany, student in Informatics eingineering 
 👀 I’m interested in Webdeveloper jobs in ASP.NET Core mvc
 🌱 I’m currently learning asp core, entity framework, angular and bootsrap
-💞️ I’m looking to collaborate on ...
+
 📫 How to reach me Ammar.hendawi@gmail.com || +4917643371288
