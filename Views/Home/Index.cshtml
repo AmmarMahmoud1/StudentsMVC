@@ -1,0 +1,28 @@
+﻿@model IQueryable<StudentsMangment.Models.Student>
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Welcome to Student Home Page </title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Course</td>
+                    <td>Email</td>
+                </tr>
+            </thead>
+            @foreach(var m in Model)
+            {
+                <tr>
+                    <td>@m.FullName</td>
+                    <td>@m.CourseTitle</td>
+                    <td>@m.Email</td>
+                </tr>
+            }
+        </table>
+    </body>
+    </html>
+
+
